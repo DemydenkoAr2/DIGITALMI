@@ -34,7 +34,6 @@ window.addEventListener('scroll', function(e) {
     };
 });
 
-
 const firstElementLink = document.getElementById('first-link')
 const secondElemetLink = document.getElementById('second-link')
 const thirdElementLink = document.getElementById('third-link')
@@ -51,14 +50,17 @@ window.addEventListener('scroll', () => {
   if(lastScrollPosition > 5 && lastScrollPosition < blockAboutUsPosition.y) {
     firstElementLink.classList.add('scroll-link-color')
     secondElemetLink.classList.remove('scroll-link-color')
+
   }else if (lastScrollPosition === 0 && lastScrollPosition < blockAboutUsPosition.y){
     firstElementLink.classList.remove('scroll-link-color')
     secondElemetLink.classList.remove('scroll-link-color')
     thirdElementLink.classList.remove('scroll-link-color')
+
   }else if (lastScrollPosition > blockAboutUsPosition.y && lastScrollPosition < blockContactPosition.y) {
     secondElemetLink.classList.add('scroll-link-color')
     firstElementLink.classList.remove('scroll-link-color')
     thirdElementLink.classList.remove('scroll-link-color')
+
   }else if (lastScrollPosition > blockContactPosition.y) {
     secondElemetLink.classList.remove('scroll-link-color')
     thirdElementLink.classList.add('scroll-link-color')
