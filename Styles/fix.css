@@ -1,0 +1,33 @@
+.active-scroll {
+    background: white;
+    transition: 0.3s;
+    box-shadow: 0 1px 2px darkgrey;
+}
+
+.active-scroll-links {
+    color: black;
+    transition: 0.3s;
+}
+
+.background-header {
+    background: #796ee2;
+    transition: 0.3s;
+}
+
+.position-start{
+    color: white;
+}
+
+.active-scroll-btn {
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+
+.position-0-color {
+    color: white;
+    transition: 0.3s;
+}
+
+.scroll-link-color {
+    color: #47b475;
+}

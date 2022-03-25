@@ -1,0 +1,20 @@
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+ 
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #f1f1f1
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border: 1px solid grey ; ;
+    /* border-top: 1px solid grey ; */
+    /* border-bottom: .5px solid grey; */
+}
