@@ -14,9 +14,9 @@
     transition: 0.3s;
 }
 
-/* .position-start{
+.position-start{
     color: white;
-} */
+}
 
 .active-scroll-btn {
     border: 1px solid gray;
@@ -30,4 +30,8 @@
 
 .scroll-link-color {
     color: #47b475;
+}
+
+.scroll {
+    background: white;
 }

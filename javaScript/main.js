@@ -1,11 +1,12 @@
 const scrollTopbarBlock = document.getElementById('scroll');
 const scrollTopbarLinks = document.querySelectorAll('.a__ul-link') 
 const scrollTopbarBtn = document.getElementById('login-btn');
+
 let lastScrollPosition = 0;
 
-scrollTopbarLinks.forEach((el) => {
-  el.classList.add('position-start')
-});
+// scrollTopbarLinks.forEach((el) => {
+//   el.classList.add('position-start')
+// });
 
 window.addEventListener('scroll', function(e) {
     lastScrollPosition = window.scrollY;
