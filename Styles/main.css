@@ -35,6 +35,12 @@ body {
     color: black;
     text-transform: uppercase;
 }
+
+.a__ul-link {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s;
+}
 /* ----- NAV  ----- */
 .nav-login__container {
     display: flex;

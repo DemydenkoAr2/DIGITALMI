@@ -2,11 +2,17 @@ const scrollTopbarBlock = document.getElementById('scroll');
 const scrollTopbarLinks = document.querySelectorAll('.a__ul-link') 
 let lastScrollPosition = 0;
 
-        scrollTopbarLinks.forEach((el) => {
-          el.classList.add('active-scroll-links');
-        });
-  }else 
-    if (lastScrollPosition === 0) {
+window.addEventListener('scroll', () => {
+  lastScrollPosition = window.scrollY;
+  event.preventDefault();
+  if (lastScrollPosition > 1) {
+  scrollTopbarBlock.classList.add('active-scroll')
+  scrollTopbarBlock.classList.remove('background-header')
+
+    scrollTopbarLinks.forEach((el) => {
+      el.classList.add('active-scroll-links');
+    });
+  }else if (lastScrollPosition === 0) {
       scrollTopbarBlock.classList.add('background-header')
       scrollTopbarBlock.classList.remove('active-scroll')
 

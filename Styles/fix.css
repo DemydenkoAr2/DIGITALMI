@@ -22,3 +22,27 @@
 .scroll-link-color {
     color: #47b475;
 }
+
+.scroll {
+    background: white;
+}
+
+.span__alert-none {
+    transform: translateX(-500%) ;
+    transition: 0.3s;
+}
+
+.span__alert-active {
+    transform: translateX(0%);
+    transition: 0.3s;
+} 
+
+.span__alert-size {
+    text-align: center;
+    position: relative;
+    padding: 10px 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #272727;
+    background-color: #2eff85;
+    border: 1px solid #49a36f;
