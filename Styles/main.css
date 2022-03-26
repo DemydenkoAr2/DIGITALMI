@@ -7,14 +7,6 @@ body {
     margin: 0;
 }
 
-/* .a {
-    text-decoration: none;
-}
-
-.li {
-    list-style: none;
-} */
-
 /* ----- HEADER ----- */
 .container-header {
     position: fixed;
@@ -62,9 +54,10 @@ body {
     min-width: 115px;
 }
 
-
 .a__ul-link {
     font-size: 18px;
+    color: white;
+    transition: color 0.3s;
 }
 
 .button{
@@ -82,6 +75,9 @@ body {
 .btn-color {
     background: #9578ef;
     border: 1px solid white;
+
+    /*  адаптив */
+
     transition: background 0.3s;
     transition: border 0.3s;
 }
@@ -317,7 +313,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 650px;
+    min-height: 800px;
 }
 
 .h5__form-title {
