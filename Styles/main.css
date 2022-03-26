@@ -80,9 +80,6 @@ body {
 .btn-color {
     background: #9578ef;
     border: 1px solid white;
-
-    /*  адаптив */
-
     transition: background 0.3s;
     transition: border 0.3s;
 }
