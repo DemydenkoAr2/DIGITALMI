@@ -68,4 +68,12 @@ window.addEventListener('scroll', () => {
   }
 });
 
+const elementEmail = document.getElementById('email-copy');
+
+elementEmail.addEventListener('click', () => {
+  const elementEmailAlert = document.getElementById('email-alert');
+  navigator.clipboard.writeText(elementEmail.innerHTML);
+  elementEmailAlert.classList.add('span__alert-active')
+    setTimeout (() => elementEmailAlert.classList.remove('span__alert-active'), 2000)
+})
 
