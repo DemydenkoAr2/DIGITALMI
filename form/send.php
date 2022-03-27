@@ -17,7 +17,6 @@
     $send = mail($to, $body, $headers);
 
 
- 
     // // Получим данные с формы
 
     // $name = $_POST['name'];
