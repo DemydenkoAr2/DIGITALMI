@@ -1,0 +1,263 @@
+@media (max-width: 1200px) {
+    .container-switch-media {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 950px) {
+    .main__container-title {
+        margin-top: 0;
+    }
+
+    .a__logo-titel {
+        font-size: 40px;
+    }
+
+    .p__article-item {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .article__container-button {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 875px) {
+    .h2__container-title {
+        font-size: 40px;
+    } 
+}
+
+@media (max-width: 800px) {
+    .main__container-form {
+        justify-content: flex-start;
+    }
+    .container__address-form {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }  
+}
+
+
+@media (max-width: 770px) {
+    .h2__container-title {
+        font-size: 36px;
+    }
+
+    .nav-login-display {
+        display: none;  
+        transition: 0.3s;
+    }
+    .nav-login__container {
+        padding-bottom: 25px;
+        justify-content: space-between;
+    }
+    .ul__navbar {
+        padding-left: 0;
+    }
+
+    .container__button-hiden {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 660px) {
+    .main__container-slides {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (min-width : 359px) and (max-width : 480px) {
+    .a__logo-svg {
+        width: 52px;
+    }
+
+    .a__logo-titel {
+        font-size: 34px;
+    }
+
+    .ul__navbar {
+        flex-direction: column;
+    }
+
+    .li__navbar-pading {
+        padding-bottom:10px ;
+    }
+
+    .li__navbar-pading:last-child {
+        padding-bottom: 0;
+    }
+
+    .h2__container-title {
+        font-size: 33px;
+        line-height: 150%;
+    }
+
+    .img__container {
+        display: none;
+    }
+
+    .container__form {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .span__alert-size {
+        margin-bottom: 20px;
+    }
+
+    .fomr-control {
+        width: 280px;
+    }
+
+    .form-control-email {
+        width: 280px;
+    }
+
+    .textarea-size {
+        max-width: 280px;
+        min-width: 280px;
+    }
+
+    .btn-send {
+        width: 280px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        min-height: 90px;
+    }
+
+    .p__footer_color {
+        font-size: 12px;
+        order: 1;
+        margin: 15px 0;
+        padding-top: 10px;
+        border-top: 1px solid white;
+    }
+
+    .x {
+        padding: 10px;
+        top: 0;
+        left: 9%;
+        position: absolute;
+    }
+
+    .y {
+        padding: 10px;
+        top: -1%;
+        position: absolute;
+        right: 9%;
+    }
+
+    .button__login, .btn-privacy-policy {
+        width: 90px;
+        height: 60px;
+    }
+
+    .a__login-top, .a-privacy-policy {
+        font-size: 24px;
+    }
+}
+
+@media (min-width : 310px) and (max-width : 800px) {
+    .container-privacy-policy {
+        padding: 0;
+    }
+}
+
+
+@media (min-width : 310px) and (max-width : 359px) {
+    .a__logo-svg {
+        max-width: 36px;
+    }
+
+    .a__logo-titel {
+        font-size: 30px;
+    }
+
+    .h2__container-title {
+        font-size: 32px;
+    }
+
+    .img__container {
+        display: none;
+    }
+    
+    .h5__form-title {
+        font-size: 32px;
+    }
+    
+    .p__form-title {
+        font-size: 30px;
+    }
+
+    .p__form-email {
+        font-size: 20px;
+    }
+
+    .span__alert-size {
+        margin-bottom: 20px;
+    }
+
+    .fomr-control {
+        width: 250px;
+    }
+
+    .form-control-email {
+        width: 250px;
+    }
+
+    .textarea-size {
+        max-width: 250px;
+        min-width: 250px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        min-height: 90px;
+    }
+
+    .p__footer_color {
+        font-size: 12px;
+        order: 1;
+        margin: 15px 0;
+        padding-top: 10px;
+        border-top: 1px solid white;
+    }
+
+    .x {
+        padding: 10px;
+        top: 0;
+        left: 9%;
+        position: absolute;
+    }
+
+    .y {
+        padding: 10px;
+        top: -6%;
+        position: absolute;
+        right: 9%;
+    }
+
+    .button__login, .btn-privacy-policy {
+        width: 60px;
+        height: 40px;
+    }
+
+    .a__login-top, .a-privacy-policy {
+        font-size: 18px;
+    }
+} 
